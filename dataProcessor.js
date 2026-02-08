@@ -1,4 +1,6 @@
 require("dotenv").config();
+console.log(process.env.USER_NAME);
+console.log(process.env.WEEKLY_GOAL);
 const { workoutCalculator } = require("./workoutReader");
 const { healthMetricsCounter } = require("./healthReader");
 
