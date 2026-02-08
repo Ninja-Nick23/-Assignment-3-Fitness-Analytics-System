@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
-    
+    "dotenv": "^17.2.4"
   },
   "devDependencies": {
     "jest": "^29.7.0"

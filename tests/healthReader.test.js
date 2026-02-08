@@ -1,7 +1,8 @@
 const { healthMetricsCounter } = require("./healthReader");
 
 test("reads valid JSON file", async () => {
-  const result = await healthMetricsCounter("./data/health.json");
+  const result = await healthMetricsCounter("./data/health-metrics.json");
+
   expect(result.totalEntries).toBeGreaterThan(0);
 });
 
